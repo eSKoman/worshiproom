@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    
+    @media (max-width: 576px) {
+        .content {
+            padding-top: 51px;
+        }
+    }
+    
+    @media (min-width: 577px) {
+      .pt-scroll {
+        padding-top: 51px;
+      }
+    
+      .nav-sticky {
+        position: fixed!important;
+        min-width: 100%;
+        top: 0;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+        transition: all .7s ease-in;
+        z-index: 1;
+      }
+    }
+   
+  /* Galéria */  
+  .margi_bott {margin-bottom: 20px;}
+    .Gallery_img {
+      position: relative;
+    }
+    .Gallery_img figure {
+      margin: 0;
+    }
+    .Gallery_img figure img {
+      width: 100%;
+    }
+ 
+ .hover_box {
+ 
+  background: #FACE4Cbf;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  float: left;
+  height: 100%;
+  align-items: center;
+  opacity: 0;
+  transition: ease-in all 0.5s;
+ 
+ }
+ .hover_box:hover  {
+      opacity: 1;
+      transition: ease-in all 0.5s;
+ }
+  .Gallery_text a:hover {
+      background-color: #FACE4C;
+      border: #FACE4C solid 1px;
+      color: #fff;
+ }
+ ul.icon_hu {text-align: center;}
+ ul.icon_hu h3 {color: #fff; font-size: 26px; padding: 0; font-weight: 500;}
+ ul.icon_hu li {padding: 10px 3px; display: inline-block;}
+
+
+
+    /* HAMBURGER MENU */
+    
+    .hamburger {
+      cursor: pointer;
+      width: 48px;
+      height: 48px;
+      transition: all 0.7s;
+    }
+    
+    .hamburger__top-bun,
+    .hamburger__bottom-bun {
+      content: '';
+      position: absolute;
+      width: 24px;
+      height: 2px;
+      background-color: rgba(252, 211, 77, 1);
+      transform: rotate(0);
+      transition: all 0.7s;
+    }
+    
+    .hamburger:hover [class*="-bun"] {
+      background: white;
+    }
+    
+    .hamburger__top-bun {
+      transform: translateY(-5px);
+    }
+    
+    .hamburger__bottom-bun {
+      transform: translateY(3px);
+    }
+    
+    .open {
+      transform: rotate(90deg);
+      transform: translateY(-1px);
+    }
+    
+    .open .hamburger__top-bun {
+      transform:
+        rotate(45deg)
+        translateY(0px);
+    }
+    
+    .open .hamburger__bottom-bun {
+      transform:
+        rotate(-45deg)
+        translateY(0px);
+    }
+}
