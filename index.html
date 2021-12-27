@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="sk-SK">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="Worshiproom Music, Kresťanská kapela, Worshiproom.sk, Worshiproom">
+    <meta name="description" content="Worshiproom Music">
+    <meta name="author" content="Slavomír Kotlár">
+    <title>Worshiproom Music</title>
+    <!-- Favicon-->
+    <link rel="icon" href="./img/logo.png" type="image/gif">
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+    <!-- Core theme CSS (includes tailwind)-->
+    <link href="./dist/output.css?v=<?= time() ?>" rel="stylesheet" />
+    <!-- Gallery-->
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <link href="lightbox.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <!-- Navigation-->
+    <header class="md:fixed w-full items-center bg-black md:bg-opacity-60 z-10">
+        <nav id="site-menu" class="flex flex-col md:flex-row justify-center items-center py-1">
+
+            <div class="w-full md:w-auto self-start md:self-center flex-col flex md:flex-none flex-no-wrap items-center">
+                <a href="www.worshiproom.sk">
+                    <img src="./img/logo.PNG" class="w-24 h-auto md:-mr-6 lg:mr-10 2xl:mr-20" alt="Logo Worshiproom">
+                </a>
+                <button id="menuBtn" class="hamburger block md:hidden focus:outline-none" type="button" onclick="navToggle();">
+                    <span class="hamburger__top-bun"></span><span class="hamburger__bottom-bun"></span>
+                </button>
+            </div>
+
+            <ul id="menu" class="w-full md:w-auto md:flex flex-col md:flex-row min-h-max hidden text-white uppercase font-josefin">
+                <li class="w-full no-underline md:w-auto md:px-1 lg:px-2 mr-1 hover:text-black hover:bg-yellow-300 transition duration-700 rounded-lg"><a href="#" class="p-4 block w-max mx-auto">Domov</a></li>
+                <li class="w-full no-underline md:w-auto md:px-1 lg:px-2 mr-1 hover:text-black hover:bg-yellow-300 transition duration-700 rounded-lg"><a href="#" class="p-4 block w-max mx-auto">Hudba</a></li>
+                <li class="w-full no-underline md:w-auto md:px-1 lg:px-2 mr-1 hover:text-black hover:bg-yellow-300 transition duration-700 rounded-lg"><a href="#" class="p-4 block w-max mx-auto">Podpora</a></li>
+                <li class="w-full no-underline md:w-auto md:px-1 lg:px-2 mr-1 hover:text-black hover:bg-yellow-300 transition duration-700 rounded-lg"><a href="#" class="p-4 block w-max mx-auto">Podujatia</a></li>
+                <li class="w-full no-underline md:w-auto md:px-1 lg:px-2 mr-1 hover:text-black hover:bg-yellow-300 transition duration-700 rounded-lg"><a href="#" class="p-4 block w-max mx-auto">Galéria</a></li>
+                <li class="w-full no-underline md:w-auto md:px-1 lg:px-2 mr-1 hover:text-black hover:bg-yellow-300 transition duration-700 rounded-lg"><a href="#" class="p-4 block w-max mx-auto">Kontakt</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!-- Motto-->
+    <article class="py-8 md:pt-72 h-max md:min-h-screen min-w-screen bg-center bg-fixed" style="background-image: url('./img/pozadieheader.JPG'); background-repeat: no-repat; background-size: cover;">
+        <div class="min-w-screen md:w-10/12 lg:w-8/12 xl:w-8/12 2xl:w-6/12 mx-auto p-4 md:p-14 md:rounded-2xl bg-black bg-opacity-60">
+            <h1 class="pb-4 font-josefin uppercase text-yellow-300 text-center text-2xl sm:text-4xl xl:text-6xl">Worshiproom Music</h1>
+            <p class="w-10/12 xl:w-5/12 mx-auto text-white font-bold text-center leading-loose">Celým srdcom vášnivo milujeme Boha a našou poctou je viesť ľudí do Jeho prítomnosti tak, že sa môžu stretnúť z tváre do tváre a zakúsiť Jeho dobrotu.</p>
+        </div>
+    </article>
+
+       <!-- Hudba-->
+       
+    <section class="w-auto mx-auto px-6 p-10 border-t-2">
+        <h1 class="mb-6 text-center font-josefin text-yellow-300 text-4xl xl:text-6xl leading-none uppercase">Hudba</h1>
+        <div class="sm:flex items-stretch">
+            <div class="w-1/2">
+                <div class="w-max sm:w-96 mx-auto md:pl-16 lg:pl-40">  
+                    <h2 class="pl-8 pb-4 font-josefin text-gray-600 text-2xl leading-none">Nové srdce:</h2>
+                    <div class="w-full pl-8">
+                    
+                      <ul class="w-full mx-auto list-decimal font-josefin text-gray-600 leading-loose">
+                            <li>SI VYVÝŠENÝ</li>
+                            <li>NIE JE NIK AKO TY</li>
+                            <li>PRI TEBE</li>
+                            <li>JEŽIŠ</li>
+                            <li>MOJE SRDCE S TVOJÍM</li>
+                            <li>HODEN SI</li>
+                            <li>MILOSŤ I NOVÉ SRDCE</li>
+                            <li>ĽÚBIM ŤA</li>
+                        </ul>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="sm:w-1/2">
+                <img class="rounded-lg max-h-screen md:h-96 md:w-auto" src="./img/about.png" alt="Dva čiarové kódy s Variantom 1 - CD a variantom 2 - tričko." />
+            </div>
+        </div>  
+        <img src="./img/2.png" class="xl:max-w-6xl m-auto" alt="Otvorený obal od CD">
+    </section>
+
+    <!-- Podpora-->
+    <section class="w-full mx-auto px-6 p-10 border-t-2">
+        <h1 class="mb-6 text-center font-josefin text-yellow-300 text-4xl xl:text-6xl leading-none uppercase">Podpora</h1>
+        <div class="flex items-center flex-wrap xl:-mt-28">
+            <div class="w-screen lg:w-1/2 mx-auto xl:mt-28 2xl:mt-0">
+                <p class="text-gray-600 mb-8">Pomôž nám vydať debutový album NOVÉ SRDCE a pridaj sa tak k našej službe hlásania EVANJELIA. Veríme, že chvála má moc meniť životy, tak ako sme sa o tom my sami už niekoľko krát presvedčili. Pomôž nám ju dostať k ľuďom, ktorí ju potrebujú počuť. Bez Tvojej podpory to nezvládneme!</p>
+                <h2 class="mt-8 text-lg font-bold text-yellow-300">CIEĽOVÁ SUMA:</h2>
+                <h2 class="mb-3 text-lg font-bold text-yellow-300">5000 €</h2>
+                <div class="w-full bg-gray-300 rounded-2xl dark:bg-gray-700">
+                    <div class="bg-yellow-300 text-md font-medium text-gray-600 text-center p-4 leading-none rounded-2xl" style="width: 24%"> 24%</div>
+                </div>
+                <h2 class="mt-3 text-lg font-bold text-yellow-300">IBAN: SK6065000000003651026312</h2>
+                <p class="my-8 text-gray-600 font-bold">DÔLEŽITÉ INFO!!!<br> Do informácií pre príjemcu zadaj:<br> Meno a priezvisko, Adresu (ulica, č. domu, mesto, psč), tel. číslo, e-mail a jeden z variantov. (Variant 2 s veľkosťou - napr. V2XL).<br>Ak Ti niečo nie je jasné, pokojne nám napíš a radi Ti pomôžeme.</p>
+                <p class="my-8 text-gray-600 font-bold">🔒Vaše osobné údaje budú použité výhradne pre komunikáciu s Vami a zaslanie konkrétneho variantu na vašu adresu tak, aby bolo všetko v súlade so zákonom GDPR o ochrane osobných údajov.🔒</p>
+                </p>
+            </div>
+            <div class="w-full lg:w-1/2">
+                <img class="rounded-lg xl:p-28 lg:ml-16 xl:ml-0" src="./img/3.png" alt="Čiarový kód na naskenovanie v aplikácii Tvojej banky. CD." />
+            </div>
+        </div>
+        <div class="w-full">
+            <img class="rounded-lg" src="./img/4.png" alt="Dva čiarové kódy s Variantom 1 - CD a variantom 2 - tričko." />
+        </div>
+    </section>
+    
+    <!-- Galéria-->
+    <section class="w-full mx-auto mb-20 px-6 pt-10 border-t-2">
+        <h1 class="mb-6 text-center font-josefin text-yellow-300 text-4xl xl:text-6xl leading-none uppercase">Galéria</h1>
+        <h2 class="my-4 text-center font-josefin text-gray-600 text-2xl leading-none">Campfest 2021</h2>
+        <div class="flex justify-center items-center">
+        <!-- slider container -->
+            <div class="relative h-96 w-full max-w-4xl overflow-hidden">
+                <div class="absolute top-0 w-full h-96 flex items-center justify-center transition-transform " data-all>
+                    <a href="./img/gal2/TF__4946.jpeg" data-lightbox="roadtrip"><img class="w-full h-full pt-10 object-cover" src="./img/gal2/TF__4946.jpeg" alt="" /></a>
+                </div>
+                <div class="absolute top-0 w-full h-96 flex  items-center justify-center transition-transform" data-all>
+                    <a href="./img/gal2/TF__4950.jpeg" data-lightbox="roadtrip"><img class="w-full h-full mt-96 pt-64 object-cover" src="./img/gal2/TF__4950.jpeg" alt="" /></a>
+                </div>
+                <div class="absolute top-0 w-full h-96 flex  items-center justify-center transition-transform" data-all>
+                    <a href="./img/gal2/TF__5272.jpeg" data-lightbox="roadtrip"><img class="w-full h-full mt-28 object-cover" src="./img/gal2/TF__5272.jpeg" alt="" /></a>
+                </div>
+                <div class="absolute top-0 w-full h-96 flex  items-center justify-center transition-transform" data-all>
+                    <a href="./img/gal2/TF__5260.jpeg" data-lightbox="roadtrip"><img class="w-full h-full object-cover" src="./img/gal2/TF__5260.jpeg" alt="" /></a>
+                </div>
+                <div class="absolute top-0 w-full h-96 flex  items-center justify-center transition-transform" data-all>
+                    <a href="./img/gal2/TF__5188.jpeg" data-lightbox="roadtrip"><img class="w-full h-full object-cover" src="./img/gal2/TF__5188.jpeg" alt="" /></a>
+                </div>
+                <div class="absolute top-0 w-full h-96 flex  items-center justify-center transition-transform" data-all>
+                    <a href="./img/gal2/TF__5145.jpeg" data-lightbox="roadtrip"><img class="w-full h-full mt-96 pt-36 object-cover" src="./img/gal2/TF__5145.jpeg" alt="" /></a>
+                </div>
+                <div class="absolute top-0 w-full h-96 flex  items-center justify-center transition-transform" data-all>
+                    <a href="./img/gal2/TF__5140.jpeg" data-lightbox="roadtrip"><img class="w-full h-full object-cover" src="./img/gal2/TF__5140.jpeg" alt="" /></a>
+                </div>
+                <div class="absolute top-0 w-full h-96 flex  items-center justify-center transition-transform" data-all>
+                    <a href="./img/gal2/TF__5057.jpeg" data-lightbox="roadtrip"><img class="w-full h-full mt-96 pt-36 object-cover" src="./img/gal2/TF__5057.jpeg" alt="" /></a>
+                </div>
+                <div class="absolute top-0 w-full h-96 flex  items-center justify-center transition-transform" data-all>
+                    <a href="./img/gal2/TF__5008.jpeg" data-lightbox="roadtrip"><img class="w-full h-full mt-96 object-cover" src="./img/gal2/TF__5008.jpeg" alt="" /></a>
+                </div>
+                <div class="absolute top-0 w-full h-96 flex  items-center justify-center transition-transform" data-all>
+                    <a href="./img/gal2/TF__5004.jpeg" data-lightbox="roadtrip"><img class="w-full h-full mt-96 pt-36 object-cover" src="./img/gal2/TF__5004.jpeg" alt="" /></a>
+                </div>
+                <div class="absolute top-0 w-full h-96 flex  items-center justify-center transition-transform" data-all>
+                    <a href="./img/gal2/TF__5245.jpeg" data-lightbox="roadtrip"><img class="w-full h-full object-cover" src="./img/gal2/TF__5245.jpeg" alt="" /></a>
+                </div>
+                <div class="absolute top-0 w-full h-96 flex  items-center justify-center transition-transform" data-all>
+                    <a href="./img/gal2/TF__5042.jpeg" data-lightbox="roadtrip"><img class="w-full h-full mt-96 pt-36 object-cover" src="./img/gal2/TF__5042.jpeg" alt="" /></a>
+                </div>
+                <div class="absolute top-0 w-full h-96 flex  items-center justify-center transition-transform" data-all>
+                    <a href="./img/gal2/TF__5040.jpeg" data-lightbox="roadtrip"><img class="w-full h-full mt-96 object-cover" src="./img/gal2/TF__5040.jpeg" alt="" /></a>
+                </div>
+
+                <!-- buttons left and right  -->
+                <button id="left" class="absolute w-10 h-10 ml-2 md:ml-10 cursor-pointer font-bold text-black hover:text-white rounded-full bg-white hover:bg-yellow-500 leading-tight text-center z-10 top-48 left-0 my-auto flex items-center justify-center">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+                <button id="right" class="absolute w-10 h-10 mr-2 md:mr-10 cursor-pointer font-bold text-black hover:text-white rounded-full bg-white hover:bg-yellow-500 leading-tight text-center z-10 top-48 right-0 my-auto flex items-center justify-center">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+            </div>
+        </div>
+    </section>  
+    
+    <!-- Kontakt-->
+        <footer class="w-full mx-auto py-8 mt-10 bg-black text-center text-white">
+            <h1 class="mt-4 mb-7 px-6 font-josefin text-yellow-300 text-2xl">Pozvite kapelu WORSHIPROOM MUSIC na Vaše podujatie.</h1>
+            <form class="w-screen px-4 md:w-3/4 lg:w-1/2 xl:w-1/3 mx-auto flex flex-col space-y-4" action="email.php" method="post">
+                <input class="w-full mx-auto px-3 py-2 placeholder-gray-400 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-yellow-300 text-black" placeholder="Meno" type="text" name="name">
+                <input class="w-full mx-auto px-3 py-2 placeholder-gray-400 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-yellow-300 text-black" placeholder="E-mail" type="text" name="email">
+                <input class="w-full mx-auto px-3 py-2 placeholder-gray-400 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-yellow-300 text-black" placeholder="Telefónny kontakt" type="text" name="phone">
+                <textarea class="textarea w-full mx-auto h-36 px-3 py-2 placeholder-gray-400 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-yellow-300 hover:ring-yellow-300 text-black" placeholder="Správa" type="text" name="message"></textarea>
+                <button id="send" class="w-1/3 px-3 py-4 mx-auto font-bold tracking-widest text-white bg-yellow-300 hover:text-black focus:outline-none rounded-lg uppercase" type="submit" name="submit"/>
+                    Poslať
+                </button>
+            </form>
+            <div class="-ml-24 mt-8">
+            <a href="mailto:worshiproom.music@gmail.com" class="flex flex-row w-52 mx-auto space-x-2 hover:text-yellow-300">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                </svg>
+                <strong class="h-10 w-10 pt-1.5">worshiproom.music@gmail.com</strong>
+            </a>
+            </div>
+            <div class="">
+                <ul class="flex flex-row w-max mx-auto space-x-4 my-6">
+                    <li><a href="https://www.facebook.com/worshiproomusic"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" class="svg-inline--fa fa-facebook-f h-10 w-10 p-2 bg-yellow-300 rounded-full hover:text-black" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M279.1 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.4 0 225.4 0c-73.22 0-121.1 44.38-121.1 124.7v70.62H22.89V288h81.39v224h100.2V288z"></path></svg></a></li>
+                    <li><a href="https://www.instagram.com/worshiproomusic/"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram h-10 w-10 p-2 bg-yellow-300 rounded-full hover:text-black" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg></path></svg></a></li>
+                    <li><a href="https://youtube.com/channel/UCtqlchPzbY2GsLIUOn-8_bg"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" class="svg-inline--fa fa-youtube h-10 w-10 p-2 bg-yellow-300 rounded-full hover:text-black" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.7 124.1c-6.281-23.65-24.79-42.28-48.28-48.6C458.8 64 288 64 288 64S117.2 64 74.63 75.49c-23.5 6.322-42 24.95-48.28 48.6-11.41 42.87-11.41 132.3-11.41 132.3s0 89.44 11.41 132.3c6.281 23.65 24.79 41.5 48.28 47.82C117.2 448 288 448 288 448s170.8 0 213.4-11.49c23.5-6.321 42-24.17 48.28-47.82 11.41-42.87 11.41-132.3 11.41-132.3s0-89.44-11.41-132.3zm-317.5 213.5V175.2l142.7 81.21-142.7 81.2z"></path></svg></a></li>
+                </ul>
+            </div>
+            <p class="w-4/5  mx-auto border-t border-gray-800 pt-4 mt-4">Copyright © 2021 WORSHIPROOM MUSIC</p>
+        </footer>
+<!-- Script Slider Gallery-->    
+<script>
+    const slides = document.querySelectorAll("[data-all]");
+    const btnLeft = document.querySelector('#left');
+    const btnRight = document.querySelector('#right');
+
+    let currSlide = 0;
+    const maxSlide = slides.length
+    const goToSlide = function(slide){
+        slides.forEach((s,i) => s.style.transform = `translateX(${100 * (i - slide)}%)`)
+    }
+
+    goToSlide(0)
+
+    const nextSlide = function(){
+        if(currSlide === maxSlide -1){
+            currSlide = 0
+        } else{
+            currSlide++
+        }
+  
+        goToSlide(currSlide)
+    }
+
+    btnRight.addEventListener('click', nextSlide)
+
+    const prevSlide = function(){
+        if(currSlide === 0){
+            currSlide = maxSlide -1
+        }else{
+            currSlide-- 
+        }
+        goToSlide(currSlide)
+    }
+
+    btnLeft.addEventListener('click', prevSlide)
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'ArrowLeft') prevSlide();
+        e.key === 'ArrowRight' && nextSlide();
+    });
+</script>
+
+<!-- Script Hamburger Menu-->  
+<script>
+    var nav = document.getElementById('site-menu');
+    var header = document.getElementById('top');
+    window.addEventListener('scroll', function() {
+        if (window.scrollX >= 40) {
+            nav.classList.add('nav-sticky');
+            header.classList.add('pt-scroll');
+        } else {
+            nav.classList.remove('nav-sticky');
+            header.classList.remove('pt-scroll');
+        }
+    });
+    function navToggle() {
+        var btn = document.getElementById('menuBtn');
+        var nav = document.getElementById('menu');
+        btn.classList.toggle('open');
+        nav.classList.toggle('flex');
+        nav.classList.toggle('hidden');
+    }
+</script>
+
+
+</body>
+</html>
